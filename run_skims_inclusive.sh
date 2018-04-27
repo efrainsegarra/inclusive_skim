@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for kin in slow
+for kin in slow fast mid
 do
-    for A in 3He 
+    for A in 3He 3H 2H 1H dum
     do
 	echo "Working on isotope $A in $kin kinematics ..."
 

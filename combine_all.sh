@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for A in 3He
+for A in dum # 3H 3He 2H 1H 
 do
-    for kin in fast # mid slow fast #slow  mid
+    for kin in slow mid fast  # mid slow fast #slow  mid
     do 
 	if [ -e skim/${A}_${kin} ]
 	then
